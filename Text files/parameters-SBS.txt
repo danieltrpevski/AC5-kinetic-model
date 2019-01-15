@@ -1,0 +1,25 @@
+kfGi	5	1/second	
+kfGolf	5.0e-02	1/second		
+krGi	5	1/second	
+krGolf	5.0e-01	1/second	
+
+kr4	20	1/second	
+kr3	12	1/second	
+kr2	2.0	1/second	
+kr1	1.8	1/second	
+
+kf4	2.0e-02	1/(nanomolarity*second)	
+kf3	1.2e-02	1/(nanomolarity*second)	
+kf2	2.0e-02	1/(nanomolarity*second)	
+kf1	1.8e-02	1/(nanomolarity*second)	
+
+kc_AC5	1.0e-01	1/second	
+kc_AC5Gaolf	20	1/second	
+kc_AC5Gai	1.000000e-03	1/second	
+kc_AC5GaolfGai	1.000000e-03	1/second
+
+totalAC5	1500	nanomolarity	
+totalGi		6000	nanomolarity	
+totalGolf	1500	nanomolarity		
+
+	

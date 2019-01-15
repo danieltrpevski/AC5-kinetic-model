@@ -1,0 +1,12 @@
+GaiGDP -> GaiGTP	kfGi*GaiGDP	
+GaolfGDP -> GaolfGTP	kfGolf*GaolfGDP	
+AC5GaolfGTPGaiGTP -> GaiGDP + AC5GaolfGTP	krGi*AC5GaolfGTPGaiGTP	
+AC5GaolfGTPGaiGTP -> GaolfGDP + AC5GaiGTP	krGolf*AC5GaolfGTPGaiGTP	
+AC5GaiGTP -> GaiGDP + AC5	krGi*AC5GaiGTP	
+AC5GaolfGTP -> GaolfGDP + AC5	krGolf*AC5GaolfGTP	
+AC5GaiGTP + GaolfGTP <-> AC5GaolfGTPGaiGTP	kf4*AC5GaiGTP*GaolfGTP - kr4*AC5GaolfGTPGaiGTP	
+AC5GaolfGTP + GaiGTP <-> AC5GaolfGTPGaiGTP	kf3*AC5GaolfGTP*GaiGTP - kr3*AC5GaolfGTPGaiGTP	
+AC5 + GaiGTP <-> AC5GaiGTP	kf2*AC5*GaiGTP - kr2*AC5GaiGTP	
+GaiGTP -> GaiGDP	krGi*GaiGTP	
+AC5 + GaolfGTP <-> AC5GaolfGTP	kf1*AC5*GaolfGTP - kr1*AC5GaolfGTP	
+GaolfGTP -> GaolfGDP	krGolf*GaolfGTP	
