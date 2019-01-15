@@ -13,15 +13,15 @@ These scripts can also be used to explore the models.
 - detection_window.m - calculates the detection window in Fig. 3G
 
 ## 3. Scripts for auxiliary functions:
-ach_square_dip.m
-ach_square_dips.m
-da_square_pulse.m
-da_square_pulses.m
-relaxsys_for_smallAC5.m
-set_Gi_dips.m
-set_Gs_pulses.m
-set_Gi_production_rule.m
-set_Gs_production_rule.m
+- ach_square_dip.m
+- ach_square_dips.m
+- da_square_pulse.m
+- da_square_pulses.m
+- relaxsys_for_smallAC5.m
+- set_Gi_dips.m
+- set_Gs_pulses.m
+- set_Gi_production_rule.m
+- set_Gs_production_rule.m
 
 ## 4. Text files
 These contain the reactions and parameter values for the ABS and SBS versions of the kinetic model:
