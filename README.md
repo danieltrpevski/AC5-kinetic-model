@@ -18,8 +18,6 @@ These scripts can also be used to explore the models.
 - da_square_pulse.m
 - da_square_pulses.m
 - relaxsys_for_smallAC5.m
-- set_Gi_dips.m
-- set_Gs_pulses.m
 - set_Gi_production_rule.m
 - set_Gs_production_rule.m
 
