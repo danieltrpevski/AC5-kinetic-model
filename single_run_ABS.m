@@ -62,23 +62,23 @@ end
 cs_obj = getconfigset(m3);
 cs_obj.StopTime = simtime; 
 cs_obj.RuntimeOptions.StatesToLog = {'AC5', 'AC5GaolfGTP', 'AC5GaiGTP', 'GaolfGTP', 'GaiGTP', 'kc_agg',...
-     'kfGaolfGDPtoGaolfGTP','kfGaiGDPtoGaiGTP'};
+     'kfGolf','kfGi'};
 set(cs_obj.SolverOptions,'OutputTimes',output_time_points);
 
 % 3.3. Run simulation
 % a) Da peak + ACh dip
 set_Gs_production_rule(m3, 1);
-set_Gi_dips(m3, 1);
+set_Gi_production_rule(m3, 1);
 [t, simdata, names] = sbiosimulate(m3);
 
 % b) Da peak
 set_Gs_production_rule(m3, 1);
-set_Gi_dips(m3, 0);
+set_Gi_production_rule(m3, 0);
 [t_Da, simdata_Da, names_Da] = sbiosimulate(m3);
 
 % c) ACh dip
 set_Gs_production_rule(m3, 0);
-set_Gi_dips(m3, 1);
+set_Gi_production_rule(m3, 1);
 [t_ACh, simdata_ACh, names_ACh] = sbiosimulate(m3);
 
 Synergy = ( simdata(:,6) + buff)./(simdata_Da(:,6) + simdata_ACh(:,6) - kc_ss + buff);  
